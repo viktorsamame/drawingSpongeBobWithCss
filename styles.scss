@@ -1,0 +1,356 @@
+@font-face{
+    font-family: 'krabby';
+    src: url(Krabby.ttf);
+}
+.titulo{
+    font-family: 'krabby';
+    margin: 0 auto;
+}
+body{
+    background-color: #fef92e;
+   
+}
+
+.cara{
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+   
+    position: relative;
+
+    .nariz{
+        width:20px;
+        height:40px;
+        background:#fef92e;
+        position: absolute;
+        top:110px;
+        left:125px;
+        border:3px solid #000;
+        border-bottom:5px solid transparent;
+        border-radius:42.5%;
+        z-index:10;
+    }
+
+    .boca{
+        width: 120px;
+        height: 80px;
+        position: absolute;
+        border-radius: 50%;
+        top: 105px;
+        left: 75px;
+        border-bottom:4px solid #000;
+    }
+    .pecas{
+        width: 24px;
+        height: 24px;
+        background-color: #c0a402;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 17%;
+        opacity: .5;
+
+      
+    }
+
+    .cachetes{
+        width: 18px;
+        height: 18px;
+        border: 2px solid #F1592A;
+        position: absolute;
+        top: 135px;
+        left: 65px;
+        border-radius: 50% 50% 20% 20%;
+        border-bottom: 0;
+
+       
+    }
+
+    .cachete-dos{
+        width: 18px;
+        height: 18px;
+        border: 2px solid #F1592A;
+        position: absolute;
+        top: 135px;
+        left: 185px;
+        border-radius: 50% 50% 20% 20%;
+        border-bottom: 0;
+    }
+
+    .dientes{
+        width: 15px;
+        height: 15px;
+        border: 1px solid black;
+        background-color: white;
+        position: absolute;
+        top: 183px;
+        left: 117px;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+
+    .diente-dos{
+        width: 15px;
+        height: 15px;
+        border: 1px solid black;
+        background-color: white;
+        position: absolute;
+        top: 183px;
+        left: 135px;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+    .ojo{
+        width: 70px;
+        height: 70px;
+        background-color: white;
+        border-radius: 50%;
+        position: relative;
+        top: 20%;
+        left: 20%;
+        border: 2px solid black;
+
+        
+        
+        .pestaña{
+        position:relative;
+	    bottom:25px;
+	    left:26px;
+        width:12px;
+	    height:3px;
+	    background:#000;
+	    transform:rotate(90deg);
+	    -moz-transform: rotate(90deg);
+	    -webkit-transform: rotate(90deg);
+	    -o-transform: rotate(90deg);
+	    -ms-transform: rotate(90deg);
+	    margin-right:10px;
+	    display:inline-block;
+        }
+
+        .pestaña-dos{
+        position:relative;
+	    bottom:22px;
+	    left:18px;
+        width:12px;
+	    height:3px;
+	    background:#000;
+	    transform:rotate(-60deg);
+	    -moz-transform: rotate(-60deg);
+	    -webkit-transform: rotate(-60deg);
+	    -o-transform: rotate(-60deg);
+	    -ms-transform: rotate(-60deg);
+	    margin-right:10px;
+	    display:inline-block;
+        }
+
+        .pestaña-uno{
+        position:relative;
+	    bottom:4px;
+	    left:10px;
+        width:12px;
+	    height:3px;
+	    background:#000;
+	    transform:rotate(70deg);
+	    -moz-transform: rotate(70deg);
+	    -webkit-transform: rotate(70deg);
+	    -o-transform: rotate(50deg);
+	    -ms-transform: rotate(50deg);
+	    margin-right:10px;
+	    display:block;
+        }
+        .pupila{
+            width: 30px;
+            height: 30px;
+            background:#47ccf9 ;
+            border-radius: 50%;
+            border: 2px solid black;
+            position: absolute;
+            top: 30%;
+            left: 30%;
+
+            .pupila-negra{
+                width:15px;
+                height: 15px;
+                background-color: black;
+                border-radius: 50%;
+                position: absolute;
+                top: 20%;
+                left: 20%;
+                z-index: 100;
+
+            }
+        }
+    }
+
+    
+    
+}
+
+.ojo-dos{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    border: 2px solid black;
+
+    .pestaña-uno-dos{
+        position:relative;
+	    bottom:4px;
+	    left:10px;
+        width:12px;
+	    height:3px;
+	    background:#000;
+	    transform:rotate(70deg);
+	    -moz-transform: rotate(70deg);
+	    -webkit-transform: rotate(70deg);
+	    -o-transform: rotate(50deg);
+	    -ms-transform: rotate(50deg);
+	    margin-right:10px;
+	    display:block;
+    }
+
+    .pestaña-dos-dos{
+        position:relative;
+	    bottom:25px;
+	    left:26px;
+        width:12px;
+	    height:3px;
+	    background:#000;
+	    transform:rotate(90deg);
+	    -moz-transform: rotate(90deg);
+	    -webkit-transform: rotate(90deg);
+	    -o-transform: rotate(90deg);
+	    -ms-transform: rotate(90deg);
+	    margin-right:10px;
+	    display:inline-block;
+    }
+
+    .pestaña-tres{
+        position:relative;
+	    bottom:22px;
+	    left:18px;
+        width:12px;
+	    height:3px;
+	    background:#000;
+	    transform:rotate(-60deg);
+	    -moz-transform: rotate(-60deg);
+	    -webkit-transform: rotate(-60deg);
+	    -o-transform: rotate(-60deg);
+	    -ms-transform: rotate(-60deg);
+	    margin-right:10px;
+	    display:inline-block;
+    }
+    .pupila-dos{
+        width: 30px;
+        height: 30px;
+        background:#47ccf9 ;
+        border-radius: 50%;
+        border: 2px solid black;
+        position: absolute;
+        top: 30%;
+        left: 20%;
+
+        .pupila-negra-dos{
+            width:15px;
+            height: 15px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            top: 20%;
+            left: 20%;
+
+        }
+    }
+}
+
+.pecas-dos{
+    width: 10px;
+    height: 10px;
+    background-color: #c0a402;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .5;
+    top: 150px;
+    left: 210px;
+}
+
+.pecas-tres{
+    width: 26px;
+    height: 26px;
+    background-color: #c0a402;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .5;
+    top: 50px;
+    left: 200px;
+}
+
+.pecas-cuatro{
+    width: 25px;
+    height: 25px;
+    background-color: #c0a402;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .5;
+    top: 50px;
+    left: 45px;
+}
+
+.pecas-cinco{
+    width: 15px;
+    height: 15px;
+    background-color: #c0a402;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .5;
+    top: 180px;
+    left: 190px;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+  
+    .facebook{
+      background-color:#3b5998;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 10px #3b5998;
+     
+      a i {
+        color: white;
+      }
+      }
+  
+    
+  }
+  
+
+  .card-footer .instagram{
+   
+      background-color: #db2f61;
+      box-shadow: 0 0 10px #db2f61;
+  }
+  
+  .card-footer .linkedin{
+    background-color:#0e76a8 ;
+    box-shadow: 0 0 10px #0e76a8;
+  }
+  
+  .card-victor{
+    border-radius: 10px;
+  
+    .img-victor{
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px 3px #bdc3c7;
+    }
+  }
